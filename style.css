@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+body {
+  font-size: 1rem;
+  line-height: 1.5;
+  background-color: rgb(36, 36, 36);
+  font-family: "Montserrat", sans-serif;
+  color: #feb51b;
+  overflow-x: hidden;
+}
+
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
+}
+
+html {
+  padding: 0;
+}
+
+button,
+a {
+  background-color: transparent;
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+  border: none;
+}
+
+button,
+input,
+select,
+textarea {
+  margin: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  appearance: none;
+  border: none;
+  outline: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+nav {
+  height: 7vh;
+  width: 100%;
+  box-shadow: 0 2px 5px rgba(247, 247, 247, 0.5);
+}
+
+nav img {
+  height: 100%;
+  padding: 0.3rem 1rem;
+}
+
+body .title {
+  text-align: center;
+  padding: 1rem 0;
+  font-weight: 600;
+  font-size: 1.78rem;
+  text-transform: capitalize;
+  animation: anni 1s linear alternate;
+}
+
+.menu_card .specials {
+  width: 80%;
+  height: 90vh;
+  margin: auto;
+  padding: 0.6rem;
+  border-radius: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+.menu_card .specials .item {
+  background: #feb51b;
+  border-radius: 0.5rem;
+  height: 100%;
+  width: 100%;
+  transition: 1s;
+}
+
+.menu_card .specials .item:hover {
+  translate: 0 -0.5rem;
+}
+
+.menu_card .specials .item img {
+  height: 75%;
+  width: 100%;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 2px #773300;
+}
+
+.menu_card .specials .item p {
+  height: 25%;
+  text-align: center;
+  position: relative;
+  top: 0.2rem;
+  padding-top: 0.5rem;
+  background: url("https://www.mrchai.in/images/brush-head.svg");
+  background-repeat: no-repeat;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 600px) {
+  .menu_card .specials {
+    height: 200vh;
+    width: 95%;
+    grid-template-columns: 1fr;
+  }
+  .menu_card .regulars .card .menu {
+    background: #feb51b;
+    width: 90%;
+    margin: 0.5rem auto;
+    padding: 0.5rem;
+    padding-right: 1rem;
+    color: #773300;
+    font-weight: 500;
+    border-radius: 0.4rem;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(10, 10, 10, 1) 0px 7px 29px 0px;
+  }
+}
+
+@keyframes anni {
+  0% {
+    translate: 0 3vh;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 0.2rem;
+  height: 0.2rem;
+  /* display: none; */
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#feb51b, #773300);
+  border-radius: 0.2rem;
+}
+

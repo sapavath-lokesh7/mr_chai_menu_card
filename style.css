@@ -131,25 +131,6 @@ body .title {
   font-size: 1.2rem;
 }
 
-.menu_card .regulars{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-
-.menu_card .regulars .card .menu {
-  background: #feb51b;
-  width: 30%;
-  margin: 0.5rem auto;
-  padding: 0.5rem;
-  padding-right: 1rem;
-  color: #773300;
-  font-weight: 500;
-  border-radius: 0.4rem;
-  display: flex;
-  justify-content: space-between;
-  box-shadow: rgb(155, 154, 154) 0px 7px 29px 0px;
-}
-
 @media (max-width: 600px) {
   .menu_card .specials {
     height: 200vh;

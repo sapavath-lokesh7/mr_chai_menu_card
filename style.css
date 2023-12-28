@@ -28,7 +28,7 @@ dd {
 body {
   font-size: 1rem;
   line-height: 1.5;
-  background-color: rgb(36, 36, 36);
+  background-color: whitesmoke;
   font-family: "Montserrat", sans-serif;
   color: #feb51b;
   overflow-x: hidden;
@@ -72,7 +72,7 @@ img {
 nav {
   height: 7vh;
   width: 100%;
-  box-shadow: 0 2px 5px rgba(247, 247, 247, 0.5);
+  box-shadow: 0 2px 5px rgba(23, 23, 23, 0.5);
 }
 
 nav img {
@@ -131,6 +131,20 @@ body .title {
   font-size: 1.2rem;
 }
 
+.menu_card .regulars .card .menu {
+  background: #feb51b;
+  width: 90%;
+  margin: 0.5rem auto;
+  padding: 0.5rem;
+  padding-right: 1rem;
+  color: #773300;
+  font-weight: 500;
+  border-radius: 0.4rem;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: rgb(155, 154, 154) 0px 7px 29px 0px;
+}
+
 @media (max-width: 600px) {
   .menu_card .specials {
     height: 200vh;
@@ -148,7 +162,7 @@ body .title {
     border-radius: 0.4rem;
     display: flex;
     justify-content: space-between;
-    box-shadow: rgba(10, 10, 10, 1) 0px 7px 29px 0px;
+    box-shadow: rgb(155, 154, 154) 0px 7px 29px 0px;
   }
 }
 
@@ -168,4 +182,3 @@ body .title {
   background: linear-gradient(#feb51b, #773300);
   border-radius: 0.2rem;
 }
-

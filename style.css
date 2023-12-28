@@ -131,9 +131,14 @@ body .title {
   font-size: 1.2rem;
 }
 
+.menu_card .regulars{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
 .menu_card .regulars .card .menu {
   background: #feb51b;
-  width: 90%;
+  width: 30%;
   margin: 0.5rem auto;
   padding: 0.5rem;
   padding-right: 1rem;
